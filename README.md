@@ -28,3 +28,9 @@ Open the code editor of your choice and run it.
 ## Usage
 You can modify this project however you see fit the Javascript item values are hardcoded into the HTML,
 so you can swap out the products and price to suit your needs.
+
+![SS of HTML](https://github.com/Era-Zero/Online-Store/blob/master/SS-PR01/HTML-Store.jpg)
+
+![SS of JS](https://github.com/Era-Zero/Online-Store/blob/master/SS-PR01/JS-Store.jpg)
+
+![SS of Store](https://github.com/Era-Zero/Online-Store/blob/master/SS-PR01/Store.jpg)
