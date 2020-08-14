@@ -1,0 +1,204 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- My css -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Home Page</title>
+
+  </head>
+
+  <body>
+
+   <!-- Header -->
+    <header>
+        
+        <!-- Nav bar -->
+        <nav class="navbar navbar-dark bg-light"> 
+
+            <!-- Logo holder -->
+            <div class="brandHolder">
+
+                <div class="logo">
+                    <img src="images/centos-brands.svg" alt="Logo Of the company" >
+                </div>
+
+                <h5 class=" display-4 , text-dark">Era Inc.</h5>
+
+            </div>
+
+            <!-- Links to other webpages -->
+            <ul class="navbar-nav , list-group-horizontal , positionFix">
+
+                <li class="nav-item">
+                    <a class="navbar-nav, btn btn-outline-dark" type="button" href="index.html" target="_blank">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="navbar-nav, btn btn-outline-dark" type="button" href="store.html" target="_blank">Store</a>
+                </li>
+
+                <li class="nav-item , nav-item dropdown">                    
+                    <a class="navbar-nav, btn btn-outline-dark" type="button" href="contact.html" target="_blank">Contact</a>                   
+                </li>
+
+            </ul>
+            
+        </nav>
+    
+    </header>
+
+    <!-- Second main container to enclose the rest of the website -->
+    <div class="container">
+
+        <!-- About section fo the company -->
+        <div class="container , text-center , text-light , shadow p-3 mb-5 bg-black">
+    
+            <h1 class="display-2">About</h1>
+    
+            <p class="lead , text-light , p-size">Welcome to Era Inc.
+            <br>Era Inc. is proud to be a trendy, innovative and ambitious store that offers a variety of sunglasses & jewelry.
+            <br>We strive to be one of the future leaders in the fashion and lifestyle sectors in South Africa.
+            <br>We currently offer a a diverse range of Ray-Ban sunglasses as well as men's jewelry, we have many
+            <br>more plans in the upcoming future so be sure to sign up for our newsletter.</p>
+
+        </div>
+
+        <!-- Testimonials about the company -->
+        <div class="container , text-center , shadow p-3 mb-5 bg-black">
+
+            <div id="hide-test">
+                <h4 class="display-4 , text-light">Testimonials</h4>
+                
+                <!-- Testimonial 1 -->
+                <blockquote class="blockquote text-center , shadow p-3 mb-5 bg-black">
+            
+                    <p class="text-secondary , lead">I was surprised by the excellent service that the company provided :
+                        <ul class="text-secondary  , lead">
+                            <li><em>My Sunglasses were delivered on time.</em></li>
+                            <li><em>Their UI is user friendly.</em></li>
+                            <li><em>The photos of the products matched exactly what arrived when I received my package.</em></li>
+                        </ul>
+                    </p>
+                
+                    <footer class="blockquote-footer">Oblivion</footer>
+            
+                </blockquote>
+
+                <!-- Testimonial 2 -->
+                <blockquote class="blockquote text-center , shadow p-3 mb-5 bg-black">
+            
+                    <p class="text-secondary , lead">I'm rocking my new shades this summer , company is quite reliable :
+                        <ul class="text-secondary  , lead">
+                            <li><em>Service was superb.</em></li>
+                            <li><em>Their UI is user friendly.</em></li>
+                            <li><em>Great quality products.</em></li>
+                        </ul>
+                    </p>
+                
+                    <footer class="blockquote-footer">Maxium</footer>
+            
+                </blockquote>
+
+            </div>
+
+            <button class="btn btn-outline-dark" id="hide-test-btn">Hide Testimonials</button>
+
+        </div>
+
+        <!-- Store link , animated background , images of products -->
+        <di class="container" > <!-- style="height: 1540px; width: 1000px;" -->
+            
+            <!-- For animated background -->
+            <div class="container , anime-bg">
+
+                <h3 class="display-2 , text-light , text-center">Store</h3>
+                <!-- Div to hold the images -->
+                <div class="container , pic-holder ,row align-items-center ">
+    
+                    <!-- Pic-1 -->
+                    <div class="col">
+                        <a href="store.html" target="_blank" class="a-op">
+                            <img src="images/nike-rounded-sg.jpg" alt="Man wearing Rounded sunglasses" style="height:500px; width: 320px;">
+                            <h4 class="display-4 , centered , text-light">Own</h4>
+                        </a>
+                    </div>
+    
+                    <!-- Pic-2 -->
+                    <div class="col">
+                        <a href="store.html" target="_blank" class="a-op">
+                            <img src="images/Rays-lake.jpg" alt="Man wearing Rounded sunglasses" style="height:500px; width: 320px;">
+                            <h4 class="display-4 , centered , text-light">Your</h4>
+                        </a>
+                    </div>
+    
+                    <!-- Pic-3 -->
+                    <div class="col">
+                        <a href="store.html" target="_blank" class="a-op">
+                            <img src="images/Pog-dude-sg.jpg" alt="Man wearing Rounded sunglasses" style="height:500px; width: 320px;">
+                            <h4 class="display-4 , centered , text-light">Look</h4>
+                        </a>
+                    </div>
+
+                </div>
+
+                <br>
+
+            </div>
+
+        </di>
+
+        <!-- Accordion menu / FAQ menu -->
+        <div class="container , text-center , shadow p-3 mb-5 bg-black">
+
+            <h3 class="display-3" >FAQ</h3>
+
+            <button class="accordion" >Question 1</button>
+            <div class="box">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+        
+        
+            <button class="accordion" >Question 2</button>
+            <div class="box">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+        
+        
+            <button class="accordion" >Question 3</button>
+            <div class="box">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+
+        </div>
+
+        <br>
+
+    </div>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- Jquery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+
+    <!-- My JavaScript file -->
+    <script type="text/javascript" src="index.js"></script>
+
+
+  </body>
+
+</html>

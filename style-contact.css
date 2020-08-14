@@ -1,0 +1,98 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(62deg , #8EC5FC , #E0C3FC);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100% */
+}
+
+header {
+    margin-bottom: 25px;
+}
+
+
+nav {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    display: inline-block;
+    height: 80px;
+    width: 70px;
+}
+
+.brandHolder {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+/* Aligns Nav items in the center */ 
+.positionFix {
+    display: flex;
+    align-items: center;
+}
+
+/* Nav buttons */
+
+li .btn-outline-dark {
+    padding: 10px;
+    margin-right: 15px;  
+}
+
+.p-size {
+    font-size: 1.5rem;
+}
+
+#myDIV {
+    width: 375px;
+    height: 525px;
+    background: #8EC5FC;
+    animation: mymove 5s infinite;
+}
+  
+@keyframes mymove {
+    from {background-color: #8bc1f7d2;}
+    to {background-color: #d9bff0c2;}
+}
+
+.filters {
+    filter: blur(1px) grayscale(10%);
+  }
+
+
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#padFix {
+    margin-left: 9px;
+    margin-top: 15px;
+}
+
+#newsPad {
+    margin-top: 50px;
+}
+
+#testimony {
+    border: 1px solid black;
+}
+
+.buttons {
+    padding:5px ;
+}
+
+.imgRequirements {
+    padding: 5px;
+    border: 1px solid black;
+}
